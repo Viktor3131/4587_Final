@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function save() {
+            firstname = document.getElementById("Firstname").value;
+            lastname = document.getElementById("lastName").value;
+            id = document.getElementById("studentId").value;
+            email = document.getElementById("email").value;
+            
+        }
+    </script>
+</head>
+<body>
+    <input id="firstName" name="firstName" class="input_text" type="text" size="50"> firstName <br>
+    <input id="lastName" name="lastName" class="input_text" type="text" size="50"> lastName <br>
+    <input id="studentId" name="studentId" class="input_text" type="text" size="50"> studentId <br>
+    <input id="email" name="email" class="input_text" type="text" size="50"> email <br>
+    <input type="button" class="button" value="save" onclick="save()">
+</body>
+</html>
